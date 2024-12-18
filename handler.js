@@ -995,7 +995,7 @@ if (!('antiDiscord' in chat)) chat.antiDiscord = false
 if (!('antiThreads' in chat)) chat.antiThreads = false
 if (!('antiTwitch' in chat)) chat.antiTwitch = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true    
+if (!('reaction' in chat)) chat.reaction = false    
 if (!('viewonce' in chat)) chat.viewonce = false       
 if (!('modoadmin' in chat)) chat.modoadmin = true  
 if (!('autorespond' in chat)) chat.autorespond = false
@@ -1008,7 +1008,7 @@ if (!('autolevelup' in chat))  chat.autolevelup = false
 if (!isNumber(chat.expired)) chat.expired = 0
 if (!('horarioNsfw' in chat)) { 
 chat.horarioNsfw = {
-inicio: "00:00", 
+inicio: "23:58", 
 fin: "23:59"
 };
 }
@@ -1042,7 +1042,7 @@ antiDiscord: false,
 antiThreads: false,
 antiTwitch: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: false,
 modoadmin: true,
 autorespond: false,
