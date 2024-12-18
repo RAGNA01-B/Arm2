@@ -71,7 +71,7 @@ conn.reply(m.chat, `*SU TIEMPO DE REGISTRO HA TERMINADO!!*\n\n_Si no continúa e
 		
 if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()}*YA ESTÁ REGISTRADO!!*\n*SI QUIERE ANULAR SU REGISTRO, USE ESTE COMANDO*\n*${usedPrefix}unreg numero de serie*\n\n*SI NO RECUERDA SU NÚMERO DE SERIE, USE ESTE COMANDO*\n*${usedPrefix}myns*`, fkontak, m)	
 
-//let groupID = '120363146016943755@g.us' 
+//let groupID = '20363374724472008@g.us' 
 //try {
 //let groupMetadata = await conn.groupMetadata(groupID);
 //let groupMembers = groupMetadata.participants.map(participant => participant.id || participant.jid); 
