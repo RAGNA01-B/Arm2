@@ -999,7 +999,7 @@ if (!('reaction' in chat)) chat.reaction = false
 if (!('viewonce' in chat)) chat.viewonce = false       
 if (!('modoadmin' in chat)) chat.modoadmin = true  
 if (!('autorespond' in chat)) chat.autorespond = false
-if (!('antitoxic' in chat)) chat.antitoxic = true
+if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = true
 if (!('game2' in chat)) chat.game2 = true
 if (!('simi' in chat)) chat.simi = false
@@ -1046,7 +1046,7 @@ reaction: false,
 viewonce: false,
 modoadmin: true,
 autorespond: false,
-antitoxic: true,
+antitoxic: false,
 game: true, 
 game2: true, 
 simi: false,
@@ -1063,7 +1063,7 @@ if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
 if (settings) {
 if (!('self' in settings)) settings.self = false
 if (!('autoread' in settings)) settings.autoread = true
-if (!('autoread2' in settings)) settings.autoread2 = false
+if (!('autoread2' in settings)) settings.autoread2 = true
 if (!('restrict' in settings)) settings.restrict = true
 if (!('temporal' in settings)) settings.temporal = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = true
@@ -1074,7 +1074,7 @@ if (!('jadibotmd' in settings)) settings.jadibotmd = false
 } else global.db.data.settings[this.user.jid] = {
 self: false,
 autoread: true,
-autoread2: false,
+autoread2: true,
 restrict: true,
 temporal: false,
 antiPrivate: true,
