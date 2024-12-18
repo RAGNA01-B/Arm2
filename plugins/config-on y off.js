@@ -97,8 +97,8 @@ break
 		
 case 'antidelete': case 'antieliminar': case 'delete':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.delete = isEnable
@@ -223,8 +223,8 @@ break
     
 case 'stickers':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (! isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.stickers = isEnable          
@@ -259,8 +259,8 @@ break
 		
 case 'autolevelup': case 'autonivel': case 'nivelautomatico':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.autolevelup = isEnable          
@@ -268,8 +268,8 @@ break
     
 case 'autosticker':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (! isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.autosticker = isEnable          
@@ -277,8 +277,8 @@ break
     
 case 'reaction': case 'reaccion': case 'emojis': case 'antiemojis': case 'reacciones': case 'reaciones':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.reaction = isEnable          
@@ -286,8 +286,8 @@ break
 		
 case 'antitoxic': case 'antitoxicos': case 'antimalos':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.antitoxic = isEnable
@@ -295,8 +295,8 @@ break
     
 case 'audios':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.audios = isEnable          
@@ -340,8 +340,8 @@ break
 
 case 'antiporn': case 'antiporno':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.antiPorn = isEnable          
@@ -395,8 +395,8 @@ break
 
 case 'modoadmin': case 'soloadmin': case 'modeadmin':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owmer', m, conn)
 throw false
 }}
 chat.modoadmin = isEnable          
@@ -404,8 +404,8 @@ break
 
 case 'autorespond': case 'autoresponder':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!isOwner) {
+global.dfail('owner', m, conn)
 throw false
 }}
 chat.autorespond = isEnable 
