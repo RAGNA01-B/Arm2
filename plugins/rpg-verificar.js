@@ -77,7 +77,7 @@ if (user.registered === true) return conn.reply(m.chat, `${lenguajeGB['smsAvisoI
 //let groupMembers = groupMetadata.participants.map(participant => participant.id || participant.jid); 
 
 //if (!groupMembers.includes(m.sender)) {
-//throw `*👀 CÓMO DESEA REGISTRARSE?* Antes de registrarte primero debes unirte al grupo requerido:*\nhttps://chat.whatsapp.com/KNwcGS4PCEN5qjbHD5VDZM\n\n*• Después usar el comando de la siguiente manera:*\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n\n*Escriba para el registro rápido:*\n${usedPrefix}reg1 nombre edad\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opciones para este registro\n\n*Escriba para el registro completo:*\n${usedPrefix}nombre\n\n\`\`\`⭐ Considere que tendrá un tiempo para completar en caso de registrarse\`\`\``;
+//throw `*👀 CÓMO DESEA REGISTRARSE?* Antes de registrarte primero debes unirte al grupo requerido:*\nhttps://chat.whatsapp.com/GOQBEelnmES4pXdlZbs6EP\n\n*• Después usar el comando de la siguiente manera:*\n📑 *REGISTRO RÁPIDO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n\n*Escriba para el registro rápido:*\n${usedPrefix}reg1 nombre edad\n\n🗂️ *REGISTRO COMPLETO*\n• Insignia de verificación\n• Desbloquear comandos que requieran registro\n• Premium Temporal Gratis\n• Más opciones para este registro\n\n*Escriba para el registro completo:*\n${usedPrefix}nombre\n\n\`\`\`⭐ Considere que tendrá un tiempo para completar en caso de registrarse\`\`\``;
 //}} catch (e) {
 //console.log(e)}
   
@@ -2465,7 +2465,7 @@ ${user.registroC === true ? `☘️ *GÉNERO*
 ❇️ *PASATIEMPO(S)*
 ❱❱ ${user.pasatiempo}\n
 ${user.premLimit === 1 ? '' : `🎟️ *PREMIUM*
-❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +10 HORAS || ${user.premiumTime - now} ms`}`}   ` : ''}${user.registroC === true ? `\n🌟 *Si es su primera vez registrándose, recibirá horas premium de forma gratuita como bonificación exclusiva por su primera inscripción, puede cancelar y eliminar su registro en cualquier momento. Gracias por registrarse ✨*` : ''}\n> *Mira tú registro en este canal*\nhttps://whatsapp.com/channel/0029VajCBSxDjiOgNgeVdy0D`.trim(),
+❱❱ ${user.premLimit === 1 ? '' : `${user.premiumTime > 0 ? '✅' : '❌'} +10 HORAS || ${user.premiumTime - now} ms`}`}   ` : ''}${user.registroC === true ? `\n🌟 *Si es su primera vez registrándose, recibirá horas premium de forma gratuita como bonificación exclusiva por su primera inscripción, puede cancelar y eliminar su registro en cualquier momento. Gracias por registrarse ✨*` : ''}\n> *Mira tú registro en este canal*\nhttps://whatsapp.com/channel/0029VawiRA7F6sn4oYFjjz34`.trim(),
 contextInfo: {
 externalAdReply: {
 title: wm,
